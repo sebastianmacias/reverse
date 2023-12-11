@@ -9,7 +9,8 @@ cursor.execute('''
 CREATE TABLE IF NOT EXISTS trade_mappings (
     main_trade_id TEXT PRIMARY KEY,
     replica_trade_id TEXT,
-    symbol TEXT
+    symbol TEXT,
+    leverage INTEGER
 )
 ''')
 
